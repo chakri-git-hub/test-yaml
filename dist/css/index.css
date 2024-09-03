@@ -1,0 +1,251 @@
+@font-face {
+  font-family: "Inter";
+  src: url("https://cdn.hcltechsw.com/public/Inter-Regular.woff2");
+}
+@font-face {
+  font-family: "HCL Roobert";
+  src: url("https://cdn.hcltechsw.com/public/HCLTechRoobert-Regular.woff2");
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("https://cdn.hcltechsw.com/public/https://fonts.googleapis.com/css?family=Roboto+Mono");
+  src: url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+}
+.title_xl {
+  font-family: "HCL Roobert";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.title_l {
+  font-family: "HCL Roobert";
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 2.5rem;
+}
+
+.title_m {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.title_s {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.content_l {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.content_m_xstrong {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.content_m_strong {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.content_m_regular {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.content_s_xstrong {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.content_s_strong {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.content_s_regular {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.content_tiny {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 1rem;
+}
+
+.link_m_strong {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-decoration: underline;
+}
+
+.link_m_regular {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-decoration: underline;
+}
+
+.link_s_regular {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  text-decoration: underline;
+}
+
+.label_m {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+
+.label_s {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.logo_small {
+  font-family: "HCL Roobert";
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.monospace_l {
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.monospace_m {
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.monospace_s {
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.light-mode,
+:root {
+  --main_default: #f2f2f2;
+  --main_hover: #e6e6e6;
+  --main_pressed: #dedede;
+  --main_high: #ffffff;
+  --main_xcontrast: #ffffff;
+  --secondary_default: #262626;
+  --secondary_high: #121212;
+  --secondary_xhigh: #000000;
+  --borders_low: #737373;
+  --borders_high: #474747;
+  --borders_decorative: #dedede;
+  --borders_contrast: #ffffff;
+  --primary_default: #007a87;
+  --primary_hover: #006075;
+  --primary_pressed: #0b455f;
+  --neutral_default: #474747;
+  --neutral_hover: #262626;
+  --neutral_pressed: #000000;
+  --info_bg: #e8f4ff;
+  --info_default: #0550dc;
+  --info_hover: #043ace;
+  --info_pressed: #0029a9;
+  --danger_bg: #fff2f2;
+  --danger_default: #c10c0d;
+  --danger_hover: #a00c0c;
+  --danger_pressed: #730c0c;
+  --warning_bg: #fffeed;
+  --warning_default: #ffdf41;
+  --warning_hover: #ffc919;
+  --warning_pressed: #eea600;
+  --warning_label: #262626;
+  --warning_border: #737373;
+  --success_bg: #e4fded;
+  --success_default: #007744;
+  --success_hover: #04633d;
+  --success_pressed: #054d33;
+  --disabled_bg: #dedede;
+  --disabled_content: #adadad;
+  --disabled_ghost: #c6c6c6;
+  --disabled_overlay: #000000 - 75%;
+}
+
+.dark-mode {
+  --main_default: #121212;
+  --main_hover: #262626;
+  --main_pressed: #363636;
+  --main_high: #000000;
+  --main_xcontrast: #121212;
+  --secondary_default: #e6e6e6;
+  --secondary_high: #e6e6e6;
+  --secondary_xhigh: #ffffff;
+  --borders_low: #737373;
+  --borders_high: #adadad;
+  --borders_decorative: #474747;
+  --borders_contrast: #737373;
+  --primary_default: #1db6c0;
+  --primary_hover: #2ec0cb;
+  --primary_pressed: #36d6d9;
+  --neutral_default: #ffffff;
+  --neutral_hover: #e6e6e6;
+  --neutral_pressed: #c6c6c6;
+  --info_bg: #363636;
+  --info_default: #6faffd;
+  --info_hover: #9dcdff;
+  --info_pressed: #c5e3ff;
+  --danger_bg: #363636;
+  --danger_default: #f52929;
+  --danger_hover: #f95454;
+  --danger_pressed: #ff7a7a;
+  --warning_bg: #363636;
+  --warning_default: #ffc919;
+  --warning_hover: #ffdf41;
+  --warning_pressed: #ffef86;
+  --warning_label: #262626;
+  --warning_border: #121212;
+  --success_bg: #363636;
+  --success_default: #15d36e;
+  --success_hover: #41e287;
+  --success_pressed: #92f7ba;
+  --disabled_bg: #474747;
+  --disabled_content: #737373;
+  --disabled_ghost: #5c5c5c;
+  --disabled_overlay: #00000099;
+}
+
+/*# sourceMappingURL=index.css.map */
