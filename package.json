@@ -1,0 +1,12 @@
+{
+  "name": "@chakri-git-hub/test-yaml",
+  "version": "1.0.0",
+  "description": "Testing yaml and git actions",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/index.scss dist/css/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
